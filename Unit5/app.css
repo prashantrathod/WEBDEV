@@ -1,0 +1,26 @@
+h1 {
+	  color: FF8800;
+/*	  border-color: purple;
+	  border-width: 5px;
+	  border-style: solid;*/
+
+	  border:8px dashed rgb(255,100,80);
+}
+
+li {
+	color: green;
+}
+
+h4{
+	color: purple;
+	background: rgb(255,100,80);
+}
+body{
+/*	background: url(http://images.all-free-download.com/images/graphiclarge/wood_grain_highdefinition_picture_3_169735.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background: pink;
+}
+
+
+

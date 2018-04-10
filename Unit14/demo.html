@@ -1,0 +1,137 @@
+<html>
+<head>
+	<title>DOM Demo</title>
+	<style type="text/css">
+		.big{
+			font-size: 100px;
+			color: orange;
+			border: 5px solid red;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Welcome to my DOM Demo</h1>
+
+	<p>Corgi mixes are <strong>super</strong> adorabale</p>
+
+	<a href="www.google.co.uk">LINK TO GOOGLE</a>
+
+	<ul>
+		<li>Orchids</li>
+		<li>Succulents</li>
+		<li>Tulips</li>
+	</ul>
+
+	<img src="http://all4desktop.com/data_images/original/4237670-images.jpg">
+
+
+</body>
+</html>
+
+<!-- 
+
+********************************************************
+Do this in javascript console:
+
+select and store the first paragraph element 
+var chColour = document.querySelector("p");
+
+use this to add the css .big style to the paragragh element
+chColour.classList.add("big")
+
+use this to remove the css .big style to the paragragh element
+chColour.classList.remove("big")
+
+use this to toggle the css .big style to the paragragh element
+chColour.classList.toggle("big")
+false
+
+chColour.classList.toggle("big")
+true 
+********************************************************
+
+Manipulating Text:
+
+textContent:
+
+	Returns a string of all the text contained in a given element:
+		eg:
+
+			<p>
+				This is an <strong>awesome</strong> paragraph
+			</p>
+
+		(in the javascript console):
+
+			//select the "p" tag:
+
+			var tag = document.querySelector("p");
+
+			//retrieve the textContent:
+			tag.textContent // "This is an awesome paragraph"
+
+			//alter the text content:
+			tag.textContent = "blah blah blah";
+
+
+innerHTML:
+
+	similar to textContent, except it returns a string of all HTML contained in a given element:
+
+			<p>
+				This is an <strong>awesome</strong> paragraph
+			</p>
+
+
+			(in the javascript console):
+
+			//select the "p" tag:
+
+			var tag = document.querySelector("p");
+
+			tag.innerHTML
+			//"This is an <strong>awesome</strong> paragraph"
+
+
+********************************************************
+
+Manipulating Attributes:
+
+Use the getAttribute() and setAttribute(), to read and write attributes like src and href:
+
+//select the 'a' element and store it in the variable 'a'.
+var a = document.querySelector("a");
+
+//here we are setting the 'www.google.com' link to 'www.corgis.com'
+a.setAttribute("href", "http://www.corgis.com");
+
+//here we are chaging the 'link to google' element name to 'link to corgis.com'
+a.textContent  = "Link to corgi.com"
+"Link to corgi.com"
+
+a
+<a href=​"http:​/​/​www.corgis.com">​Link to corgi.com​</a>​
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->

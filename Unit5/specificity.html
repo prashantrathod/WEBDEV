@@ -1,0 +1,107 @@
+<html>
+<head>
+	<title>Specificity</title>
+
+
+<!-- for ease, css styling done here in the document -->
+<style type="text/css">
+
+	body {
+		color: red;
+	}
+	ul {
+		color: blue;
+	}
+
+	li{
+		color: orange;
+	}
+
+	.highlight{
+		color: yellow;
+	}
+
+	#special{
+		color: green;
+	}
+	
+
+</style>
+</head>
+
+<body>
+
+<p>HELLO!!!</p>
+
+	<ul>
+		<li id="special" class="highlight">John</li>
+		<li>Paul</li>
+		<li>George</li>
+		<liclass="highlight">Ringo</li>
+
+	</ul>
+
+
+
+</body>
+</html>
+
+<!-- TYPE Selectors - these are the least specific
+
+li{
+	
+}
+
+li a {
+	
+}
+
+li + a {
+	
+}
+
+-->
+
+
+<!-- Class, Attribute, and psuedo-class Selecters - these are somewhat more specific
+
+
+.hello{
+	
+}
+
+input[type="text"] {
+	
+}
+
+-->
+
+<!-- ID Selectors 
+
+#hello
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

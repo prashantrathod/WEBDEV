@@ -1,0 +1,14 @@
+/*element*/
+li{
+	border: 2px solid red;
+}
+
+/*id*/
+#special{
+	background-color: yellow;
+}
+
+/*class*/
+.highlight{
+	text-decoration: line-through;
+}

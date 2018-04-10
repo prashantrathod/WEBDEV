@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title>Quiz 2</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+	<div>
+
+		<label for="firstName">First Name :</label>
+		<input id="firstName" name="firstName" type="text" placeholder="john" required>
+
+		<label for="lastName">Last Name :</label>
+		<input id="lastName" name="lastName" type="text" placeholder="Smith" required>
+
+	</div>
+
+	<div>
+		<label for="Gender">Male :</label>
+		<input id="Gender" name="Gender" type="radio" value="Male">
+
+		<label for="Gender">Female :</label>
+		<input id="Gender" name="Gender" type="radio" value="Female">
+
+		<label for="Gender">Other :</label>
+		<input id="Gender" name="Gender" type="radio" value="Other">
+	</div>
+
+	<div>
+
+		<label for="email">Email :</label>
+		<input id="email" name="email" type="email" placeholder="Your email" required>
+
+
+		<label for="password">Password :</label>
+		<input id="password" name="password" type="password" placeholder="Password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters">
+	</div>
+
+
+	<div>
+		Birthday:  
+
+		<select name="Month">
+			<option default>Month</option>
+			<option value="Month">JAN</option>
+			<option value="Month">FEB</option>
+			<option value="Month">MAR</option>
+		</select>
+
+		<select name="Day">
+			<option default>Day</option>
+			<option value="Day">1</option>
+			<option value="Day">2</option>
+			<option value="Day">3</option>
+		</select>
+
+		<select name="Year">
+			<option default>Year</option>
+			<option value="Year">2017</option>
+			<option value="Year">2018</option>
+			<option value="Year">2019</option>
+		</select>
+
+	</div>
+
+	<div>
+
+		<label for="terms">I agree to the terms and conditions</label>
+		<input id="terms" name="terms" type="checkbox" value="unchecked">
+
+	</div>
+
+<button>Submit</button>
+
+</form>
+
+</body>
+</html>
